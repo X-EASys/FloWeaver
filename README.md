@@ -48,8 +48,8 @@ Optional model-backed candidate discovery uses these environment variables:
 
 | Variable | Purpose | Default |
 | --- | --- | --- |
-| `FLOWEAVER_LLM_API_BASE_URL` | Chat-completions endpoint URL | Unset |
-| `FLOWEAVER_LLM_API_KEY` | Endpoint access token | Unset |
+| `FLOWEAVER_LLM_API_BASE_URL` | Chat-completions endpoint URL |  |
+| `FLOWEAVER_LLM_API_KEY` | Endpoint access token |  |
 | `FLOWEAVER_LLM_MODEL` | Model identifier | `gpt-5` |
 | `FLOWEAVER_LLM_TIMEOUT_S` | Request timeout in seconds | 120 for profile discovery; 300 for detector generation |
 | `FLOWEAVER_LLM_MAX_ATTEMPTS` | Detector request attempts; 0 means no fixed limit | `0` |
